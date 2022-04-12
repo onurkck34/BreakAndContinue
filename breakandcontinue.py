@@ -8,3 +8,7 @@ for city in cities:
 
 """names = ["Ahmet","Mehmet","Akif"]
 
+for name in names:
+    if name == "Mehmet":
+        continue 
+    print(name + " For Name = " + name[0:3])
